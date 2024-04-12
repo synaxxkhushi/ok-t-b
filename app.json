@@ -1,0 +1,41 @@
+{
+    "name": "TeraboxedBot",
+    "description": "Python Telegram Bot for Bypassing Terabox Links",
+    "logo": "https://te.legra.ph/file/de51e8d53709471b25fea.jpg",
+    "keywords": [
+        "python",
+        "pyrogram",
+        "telegram",
+        "bot",
+        "teraboxedbot",
+        "terabox"
+    ],
+    "repository": "https://github.com/youesky/TeraboxedBot",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token.",
+            "required": true
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "required": true
+        },
+        "ADMINS": {
+            "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "required": true
+        },
+        "LOG_CHANNEL": {
+            "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "required": true
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
