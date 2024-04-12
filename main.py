@@ -111,7 +111,7 @@ async def handle_message(m, link):
     check_channel2 = await is_user_on_chat(bot, channel2, m.peer_id)
 
     if not check_channel1 or not check_channel2:
-        return await m.reply(f"Please join {channel1} and {channel2} then send link.")
+        return await m.reply(f"𝐏𝐥𝐞𝐚𝐬𝐞 𝐣𝐨𝐢𝐧 {channel1} 𝐚𝐧𝐝 {channel2} 𝐛𝐞𝐟𝐨𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐭𝐡𝐞 𝐛𝐨𝐭.")
 
     url = get_urls_from_string(link)
     if not url:
@@ -225,7 +225,7 @@ async def handle_message(m, link):
             caption=f"""
 File Name: `{data['file_name']}`
 Size: **{data["size"]}** 
-Direct Link: [Click Here](https://t.me/MaviTerabox_bot?start={uuid})
+Direct Link: [Click Here](https://t.me/synaxnetwork)
 
 {channel1}
 """,
@@ -250,7 +250,7 @@ Direct Link: [Click Here](https://t.me/MaviTerabox_bot?start={uuid})
             caption=f"""
 File Name: `{data['file_name']}`
 Size: **{data["size"]}** 
-Direct Link: [Click Here](https://t.me/MaviTerabox_bot?start={uuid})
+Direct Link: [Click Here](https://t.me/synaxnetwork)
 
 {channel1}
 """,
