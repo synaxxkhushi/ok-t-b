@@ -12,6 +12,6 @@ async def plans_command(m):
     else:
         # Free user
         full_name = user.first_name + (f" {user.last_name}" if user.last_name else "")
-        reply_text = f"**User ID: {user_id}\nName: {full_name}\n\n💠 Premium Plan\n\n- Download Limit: 2.0 GB\n- Task Limit: Unlimited\n- Time Gap: None\n- No Anti-Spam Timer\n- Validity: 1 Month\n\nPrice: ₹50 INR\n\nBuy Now from: @synaxchatrobot**"
+        reply_text = f"**User ID: {user_id}\nName: {full_name}\n\n💠 Premium Plan\n\n- Download Limit: 2.0 GB\n- Task Limit: Unlimited\n- Time Gap: None\n- No Anti-Spam Timer\n- Validity: 1 Month\n\nPrice: ₹50 INR\n\nBuy Now from:  @synaxchatrobot **"
 
     await m.reply(reply_text, parse_mode="markdown")
