@@ -125,7 +125,7 @@ async def handle_message(m, link):
     hm = await m.reply("Sending you the media, please wait...")
 
     count = db.get(f"check_{m.sender_id}")
-    if count and int(count) > 10:
+    if count and int(count) > 4:
         return await hm.edit("You are limited now. Please come back after 30 minuts or use another account.")
 
     shorturl = extract_code_from_url(url)
