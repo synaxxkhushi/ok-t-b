@@ -11,7 +11,7 @@ CHAT1       = "@synaxnetwork" # only username supported
 CHAT2       = "@synaxbots" # only username supported
 
 ## TERABOX COOKIES
-COOKIES     = "PANWEB=1; csrfToken=MkqT6gDAocZzpanwxC_qcIQw; browserid=fUSzfZnsfR1v8T0y_C10IUL-DWeJOtfbk54grUAVM47hH5lKtVPR94kTgl0=; lang=en; bid_n=18f391807aeb6405dd4207; stripe_mid=e48c3be4-aa47-471b-8947-da14cd3da49696ddd0; __stripe_sid=26866037-610b-4451-892b-1b83e5e2883739099e; ndus=Y4ZW53CteHuiZEVNT9iX5E4DAdRsCk4v4Inzu5-3; ndut_fmt=B017DAC69BBE8BF18A90900727665A6D45F0C4233898CD62183F562720F53CF3" # get from chrome dev tools ex: "PANWEB=1; csrfToken=; lang=en; TSID=; __bid_n=; _ga=; __stripe_mid=; ndus=; browserid==; ndut_fmt=; _ga_06ZNKL8C2E=" (don't use this)
+COOKIES     = "PANWEB=1; csrfToken=mNxTLcj23_Q55MO4yN-ROk5h; browserid=VHTZhOscJptCPoAVrDLdoD1gE4lErsXeDB_Elcc-lc9HczX1PYC3w_9zDIQ=; lang=en; bid_n=18f753c1c3635204fd4207; ab_sr=1.0.1_YWZkMWUzOTMxYWVjOWI3MDVkMWI4MzUxYjJhNTlmMGY0ZTZhMDU2ZjZmZGYwNDg4YmJmODE1NzE0NDk4NWYxNTliMmI1ZmRmODU0MGRjNDNjNGZkYzcyZjliNTViNzhjZDk2MWQ4M2M1OTFhODZlNjc5OTFmZTEzMzg2M2U3ODAxMmE1YjE1YWE4OGRhNWQzMjExYjJmYWJjNzZjNjE0ZA==; ndus=YvimKCyteHui_C4IO_iGlRG7xoIrwwki-_NiA5Am; ndut_fmt=9CF479BD2004D860F35758BC00B3CF9883784F352A58D8F79656C21D54DE972C" # get from chrome dev tools 
 
 # REDIS DATABASE [https://redis.com/try-free]
 HOST        = "redis-10693.c278.us-east-1-4.ec2.redns.redis-cloud.com"
