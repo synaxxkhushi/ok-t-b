@@ -14,9 +14,9 @@ CHAT2       = "@synaxbots" # only username supported
 COOKIES     = "PANWEB=1; csrfToken=SlG3EHVGdauCDO4Rl8YJkRF4; browserid=me9b3gO3KyIcbje9j0HeWmSC-u_Vty-TzJBElBySlbVLAuJko3Kz_wQKPzw=; lang=en; bid_n=18f753c1c3635204fd4207; ab_sr=1.0.1_Y2IwMDcxNDc1Yjc5NmM2NzRjMDA1NjRhN2YzYjk3MjQwZDAxMjMzZmRjNjViMzdmY2IxN2VmNGU2MWE1MjE3MDA5MTRhMjc4ZjM1NDI1NWQ1MmRkZGY0Y2JmOTkwZDFmMmI3NGUzZjFlNTUyZTdiYzRiNWZhZDA2MDI0MGNlYmYxYmNkZjExNzFmOWZhYmRlZjY5MmZkNWIzODQyMDQ0OQ==; ndus=Yfoxfv7teHuiIHLB5W1wSoAP8G7_l8pAhmWIAYFu; ndut_fmt=F973758CA4D9E5B17CDC91EEF01BFAE050E4FF332F993ECC9E849F9304680D55" # get from chrome dev tools 
 
 # REDIS DATABASE [https://redis.com/try-free]
-HOST        = "redis-10693.c278.us-east-1-4.ec2.redns.redis-cloud.com"
-PORT        = 10693
-PASSWORD    = "aLYDdunvCU0I0wY3Jrq6s3ehqabHl3Qf"
+HOST        = "redis-15567.c52.us-east-1-4.ec2.redns.redis-cloud.com"
+PORT        = 15567
+PASSWORD    = "hZptmo0IxaOZG2zzAyweAoJ6W4mpv8pg"
 
 
 # ---------- DON'T TOUCH THIS ---------- #
